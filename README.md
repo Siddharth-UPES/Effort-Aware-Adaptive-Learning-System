@@ -25,17 +25,18 @@ The platform combines:
 
 ## Project Preview
 
+### Login
+![Onboarding](assets/banner.png)
+
 ### Dashboard
 ![Dashboard](assets/dashboard.png)
 
 ### Burnout Monitoring
 ![Burnout](assets/burnout.png)
+![Burnout](assets/burnout2.png)
 
 ### Learning Path
 ![Learning Path](assets/Analytics.png)
-
-### Onboarding Assessment
-![Onboarding](assets/.png)
 
 ## System Architecture
 
