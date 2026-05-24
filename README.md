@@ -151,7 +151,6 @@ Open the app in your browser at `http://localhost:5173`.
 - Smart resource recommendation engine
 - Dynamic roadmap re-planning
 - Skill dependency graph
-- Dropout risk prediction
 - Real-time productivity analytics
 - Cloud deployment support
 
