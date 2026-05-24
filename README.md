@@ -7,54 +7,75 @@
 
 ---
 
-![Project Banner](https://via.placeholder.com/1200x360.png?text=Effort-Aware+Adaptive+Learning+System)
+## Problem Statement
+
+Learners often abandon upskilling programs due to unrealistic learning timelines, excessive workload, and poorly sequenced learning resources that ignore individual effort and cognitive difficulty.
+
+This project addresses the problem by building an AI-powered effort-aware adaptive learning system that predicts study effort, monitors burnout risk, estimates cognitive load, and generates personalized learning roadmaps.
 
 ## Project Summary
 
-Effort-Aware Adaptive Learning System is a modern student productivity platform designed to enhance learning through data-driven recommendations. It supports user onboarding, adaptive study planning, progress analytics, and burnout risk tracking.
+Effort-Aware Adaptive Learning System is a modern student productivity platform that helps learners organize study planning, prevent burnout, and improve progress using predictive analytics.
 
-The system delivers a professional learning experience by combining:
-- clean React UI built with Vite and Tailwind CSS
-- a robust Node.js backend with Express and MongoDB
-- predictive analytics and streak management
+The platform combines:
+- a polished React UI with Tailwind CSS
+- a Node.js and Express backend for user and profile APIs
+- a machine learning workflow for effort estimation and burnout prediction
+- MongoDB for profile persistence and adaptive learning state
 
-## Why This Project Stands Out
+## Project Preview
 
-- Improves student focus with personalized learning insights
-- Tracks consistency using login streaks and achievement badges
-- Detects burnout risk and suggests balanced study habits
-- Provides a complete dashboard for goals, performance, and schedule planning
+### Dashboard
+![Dashboard](assets/dashboard.png)
 
-## Core Capabilities
+### Burnout Monitoring
+![Burnout](assets/burnout.png)
 
-- ✅ Email/password signup and secure login
-- ✅ Onboarding assessment to personalize the user profile
-- ✅ Dashboard with effort, focus, burnout, and progress metrics
-- ✅ Adaptive learning path and timetable builder
-- ✅ Achievement system for streaks and habit tracking
-- ✅ Predictive endpoint for model-based recommendations
+### Learning Path
+![Learning Path](assets/learning-path.png)
 
-## Screenshot Preview
+### Onboarding Assessment
+![Onboarding](assets/onboarding.png)
 
-![Dashboard Preview](https://via.placeholder.com/1000x500.png?text=Dashboard+Preview)
+## System Architecture
 
-## Repository Structure
+![Architecture](assets/architecture.png)
 
-```text
-EffortAwareAdaptiveLearningSystem/
-├── backend/                # API server, database models, authentication
-├── frontend/               # React UI, pages, components, services
-├── model/                  # Prediction assets and ML resources
-├── README.md               # Project documentation
-├── QUICK_START.md          # Developer setup guide
-└── PROJECT_DOCUMENTATION.txt # Design and architecture notes
-```
+## Key Features
 
-## Tech Stack
+- Personalized onboarding assessment
+- AI-based effort estimation
+- Burnout risk prediction and recovery suggestions
+- Cognitive load analysis
+- Adaptive learning roadmap generation
+- Skill-based study planning
+- Dynamic dashboard analytics
+- Weekly effort and workload tracking
+- Streak and achievement system
+- Secure authentication and profile management
 
-- **Frontend:** React, Vite, React Router, Tailwind CSS, Axios
-- **Backend:** Node.js, Express, MongoDB, Mongoose, bcrypt
-- **Data & Prediction:** Local storage helpers, ML-powered prediction pipeline
+## Technology Stack
+
+| Layer | Technology |
+|--------|------------|
+| Frontend | React.js, Vite, Tailwind CSS |
+| Backend | Node.js, Express.js |
+| ML Service | Python, FastAPI, scikit-learn |
+| Database | MongoDB |
+| Authentication | JWT |
+| APIs | REST API |
+| Tools | VS Code, Postman, Jupyter Notebook |
+
+## Machine Learning Workflow
+
+1. User completes onboarding assessment.
+2. Behavioral and wellness features are processed.
+3. ML models predict:
+   - Required effort hours
+   - Burnout risk
+   - Cognitive load
+4. Adaptive learning roadmap is generated.
+5. Dashboard visualizes predictions and recommendations.
 
 ## Quick Setup
 
@@ -90,11 +111,11 @@ Open the app in your browser at `http://localhost:5173`.
 
 ## Usage Workflow
 
-1. **Sign up** with name, email, and password.
-2. **Complete onboarding** to set profile values and assessment details.
-3. **Access the dashboard** to review predictions and progress.
-4. **Track streaks** and unlock achievement badges.
-5. **Use learning path and timetable pages** to plan study sessions.
+1. Sign up with name, email, and password.
+2. Complete onboarding to capture study, wellness, and schedule data.
+3. Review personalized dashboard metrics and predictions.
+4. Track streaks, achievements, and recovery suggestions.
+5. Use the learning path and timetable pages to plan progress.
 
 ## Routes and Pages
 
@@ -119,32 +140,26 @@ Open the app in your browser at `http://localhost:5173`.
 
 ## Professional Notes
 
-- Users who complete onboarding are redirected directly to the dashboard.
-- Streak tracking is stored per user in browser local storage.
-- The backend uses a flexible profile update endpoint for both onboarding and later profile changes.
+- Users who complete onboarding are redirected to the dashboard.
+- Login streak data is stored per user in local storage.
+- The backend supports profile updates and predictive analytics for improved learning suggestions.
 
-## Deployment & Git
+## Future Enhancements
 
-To publish this repository to GitHub:
+- AI mentor / chatbot guidance
+- Smart resource recommendation engine
+- Dynamic roadmap re-planning
+- Skill dependency graph
+- Dropout risk prediction
+- Real-time productivity analytics
+- Cloud deployment support
 
-```bash
-git init
-git add .
-git commit -m "Add professional README"
-git branch -M main
-git remote add origin https://github.com/USERNAME/REPO.git
-git push -u origin main
-```
+## License
 
-## Next Enhancements
-
-- Replace placeholder images with real app screenshots
-- Add production deployment instructions
-- Add automated tests for backend routes and frontend pages
-- Improve UI responsiveness and accessibility
+This project is licensed under the MIT License.
 
 ---
 
-## Contact
+## Notes for Reviewers
 
-For mentoring or review, highlight the adaptive learning workflow, analytics pages, and the combined frontend/backend architecture. This project is ready for further improvements in UX, prediction quality, and deployment.
+Highlight the adaptive learning workflow, burnout prediction, and the combination of frontend, backend, and ML services. This repo is designed to show both a polished student dashboard and an intelligent recommendation engine.
