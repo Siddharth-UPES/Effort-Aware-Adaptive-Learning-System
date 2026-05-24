@@ -32,14 +32,14 @@ The platform combines:
 ![Burnout](assets/burnout.png)
 
 ### Learning Path
-![Learning Path](assets/learning-path.png)
+![Learning Path](assets/Analytics.png)
 
 ### Onboarding Assessment
-![Onboarding](assets/onboarding.png)
+![Onboarding](assets/.png)
 
 ## System Architecture
 
-![Architecture](assets/architecture.png)
+![Architecture](assets/achievement.png)
 
 ## Key Features
 
